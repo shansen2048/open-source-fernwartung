@@ -13,7 +13,7 @@ services:
       - 21116:21116/udp
       - 21118:21118
     image: rustdesk/rustdesk-server:latest
-    command: hbbs -r rustdesk.example.com:21117 -k _ #Domain oder Ip-Adresse anpassen
+    command: hbbs -r rustshansen.home.dyndns.org:21117 -k _ #Domain oder Ip-Adresse anpassen
     volumes:
       - ./data:/root
     networks:
